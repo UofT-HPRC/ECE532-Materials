@@ -60,6 +60,7 @@
 #endif
 
 void lwip_init(); /* missing declaration in lwIP */
+struct netif *echo_netif;
 
 //TCP Network Params
 #define SRC_MAC_ADDR {0x00, 0x0a, 0x35, 0x00, 0x01, 0x02}
