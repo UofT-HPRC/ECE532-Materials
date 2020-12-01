@@ -12,7 +12,7 @@ module axi_lite_stimulus();
   * More details please refer PG267 section about "Useful Coding Guidelines and Examples"
   * for more details.
   *************************************************************************************************/
-  design_1_<vip_component_name>_mst_t                               agent;
+  <vip_component_name>_mst_t                               agent;
 
   /*************************************************************************************************
   * Declare variables which will be used in API and parital randomization for transaction generation
