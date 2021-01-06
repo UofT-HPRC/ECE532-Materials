@@ -3,8 +3,8 @@
 #include "xil_printf.h"
 #include "xparameters.h"
 
-volatile unsigned int* led = (unsigned int*) XPAR_GPIO_LED_BASEADD;
-volatile unsigned int* swt = (unsigned int*) XPAR_GPIO_SWITCH_BASEADD;
+volatile unsigned int* led = (unsigned int*) XPAR_GPIO_LED_BASEADDR;
+volatile unsigned int* swt = (unsigned int*) XPAR_GPIO_SWITCH_BASEADDR;
 
 int main()
 {
