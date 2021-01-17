@@ -3,7 +3,7 @@
 import socket
 import _thread
 
-HOST = '1.1.3.1' # The IP address of the computer this script runs on
+HOST = '1.1.X.1' # The IP address of the computer this script runs on
 PORT = 50000 # The port used by this TCP server 
 
 def open_new_client(connection, addr):

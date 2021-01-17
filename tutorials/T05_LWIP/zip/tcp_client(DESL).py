@@ -2,7 +2,7 @@
 
 import socket
 
-HOST = "1.1.3.1"  # The remote server's hostname or IP address
+HOST = "1.1.X.1"  # The remote server's hostname or IP address
 PORT = 50000  # The port used by the remote server
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

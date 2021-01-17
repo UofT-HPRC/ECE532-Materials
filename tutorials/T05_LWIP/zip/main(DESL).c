@@ -64,15 +64,15 @@ void lwip_init(); /* missing declaration in lwIP */
 struct netif *echo_netif;
 
 //TCP Network Params
-#define SRC_MAC_ADDR {0x00, 0x0a, 0x35, 0x00, 0x01, 0x02}
-#define SRC_IP4_ADDR "192.168.1.10"
-#define IP4_NETMASK "255.255.255.0"
-#define IP4_GATEWAY "192.168.1.1"
-#define SRC_PORT 7
+#define SRC_MAC_ADDR {0x00, 0x0a, 0x35, 0x00, 0x00, 0xXX}
+#define SRC_IP4_ADDR "1.1.X.2"
+#define IP4_NETMASK "255.255.0.0"
+#define IP4_GATEWAY "1.1.0.1"
+#define SRC_PORT 50001
 
-#define DEST_IP4_ADDR  "192.168.1.11"
+#define DEST_IP4_ADDR  "1.1.X.1"
 #define DEST_IP6_ADDR "fe80::6600:6aff:fe71:fde6"
-#define DEST_PORT 22
+#define DEST_PORT 50000
 
 #define TCP_SEND_BUFSIZE 20
 
